@@ -75,6 +75,9 @@ header {
     position: relative;
     bottom:200px;
     right:30px;
+    margin-top: 5px;
+    font-size: 14px;
+    color:rgb(113,113,113); ;
   }
   /*
   .pic_bot_on_map {
@@ -125,6 +128,18 @@ header {
 }
 .p_read_more {
   margin: 0px;
+}
+
+.p_details {
+
+  position: relative;
+  right: 50%;
+  margin-top:10px;
+}
+
+.p_details > .bottom_link {
+  color: rgb(114,113,109);
+  font-size: 12px;
 }
   
   
