@@ -53,7 +53,7 @@ header {
   .pic_logo {
     position: relative;
     top: 35px;
-    right: 200px;
+    right: 300px;
   }
   .bottom_pic {
     display:flex;
@@ -72,7 +72,7 @@ header {
   .bottom-text ,.pic_bot_on , .bottom_link {
     position: relative;
     bottom:200px;
-    left:30px;
+    right:30px;
   }
   /*
   .pic_bot_on_map {
