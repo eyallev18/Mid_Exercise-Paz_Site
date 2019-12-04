@@ -1,5 +1,9 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  direction: rtl;
+  text-align: right;
+  margin:0px;
+  
   
 }
 
@@ -8,17 +12,21 @@ header {
    /* background-color:rgb(144,144,144);*/
     background: linear-gradient(to bottom, rgb(144,144,144) 90%, rgb(200,200,200));
     padding: 0px;
-    position: absolute;
+   /* position: absolute; */
     top:0px;
     right: 0px;
     height: 105px;
     width: 100%;
   }
-
+  .container {
+    width:900px;
+    margin: auto;
+  }
   .main_pic {
     display: flex;
     justify-content: center;
-    margin-top:135px;
+    margin-top:20px;
+    
     
   }
   /*
@@ -28,7 +36,7 @@ header {
   }
   */
   .top_gray {
-    position: relative;
+    position: absolute;
     bottom:110px;
     left: 42px;
    
@@ -41,7 +49,7 @@ header {
   .pic_logo {
     position: relative;
     top: 35px;
-    left: 1150px;
+    right: 150px;
   }
   .bottom_pic {
     display:flex;
