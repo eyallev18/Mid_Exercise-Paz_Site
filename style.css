@@ -160,3 +160,21 @@ ul > li > a {
 right:220px;
  bottom:280px;
 }
+footer {
+  display:flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+}
+footer > p > a ,footer > img{
+  color:white;
+  text-decoration: none;
+}
+footer > p {
+  margin: 0px 5px 0px 5px;
+}
+footer > p:last-child > a {
+  color:red;
+}
