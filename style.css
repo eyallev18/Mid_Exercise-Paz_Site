@@ -13,4 +13,52 @@ header {
     height: 105px;
     width: 100%;
   }
+
+  .main_pic {
+    display: flex;
+    justify-content: center;
+    margin-top:135px;
+    
+  }
+  .pic_flex {
+    padding: 0px 8px 0px 8px;
+    border-bottom-right-radius: 8%;
+  }
+  .pic_logo {
+    position: relative;
+    top: 35px;
+    left: 1150px;
+  }
+  .bottom_pic {
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+
+  }
+  .pic_bot_flex {
+    padding: 0px 8px 0px 8px;
+    width:290px;
+    height: 200px;
+    display:flex;
+    flex-direction:column;
+
+  }
+  .bottom-text ,.pic_bot_on , .bottom_link {
+    position: relative;
+    bottom:200px;
+    left:30px;
+  }
+  /*
+  .pic_bot_on {
+    position: relative;
+    bottom:160px;
+    left:25px;
+  
+  } 
+  .bottom_pic_in {
+    display:flex;
+    flex-direction:column;
+  }  */
+
+  
   
