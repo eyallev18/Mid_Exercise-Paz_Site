@@ -21,6 +21,19 @@ header {
     margin-top:135px;
     
   }
+  /*
+  .pic_flex {
+    position: absolute;
+
+  }
+  */
+  .top_gray {
+    position: relative;
+    bottom:110px;
+    left: 42px;
+   
+  }
+  
   .pic_flex {
     padding: 0px 8px 0px 8px;
     border-bottom-right-radius: 8%;
@@ -58,7 +71,7 @@ header {
   .bottom_pic_in {
     display:flex;
     flex-direction:column;
-  }  */
+  }  
 
   footer {
     background: linear-gradient(to top, rgb(144,144,144) 50%, rgb(200,200,200));
