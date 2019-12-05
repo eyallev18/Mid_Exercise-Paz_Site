@@ -17,6 +17,7 @@ header {
     right: 0px;
     height: 105px;
     width: 100%;
+    
   }
   .container {
     width:900px;
@@ -52,10 +53,12 @@ header {
     padding: 0px 8px 0px 8px;
     border-bottom-right-radius: 8%;
   }
-  .pic_logo {
+  /*logo */
+  .top_menu {
     position: relative;
     top: 35px;
-    right: 22%;
+    /*right: 10%; */
+    left:4%;
     max-width: auto;
   }
   .bottom_pic {
@@ -160,7 +163,7 @@ ul > li > a {
 right:220px;
  bottom:280px;
 }
-footer {
+footer, div.top_menu {
   display:flex;
   justify-content: center;
   justify-items: center;
@@ -168,11 +171,11 @@ footer {
   align-items: center;
 
 }
-footer > p > a ,footer > img{
+footer > p > a ,footer > img ,div.top_menu >p > a ,div.top_menu > img{
   color:white;
   text-decoration: none;
 }
-footer > p {
+footer > p ,div.top_menu > p {
   margin: 0px 5px 0px 5px;
 }
 footer > p:last-child > a {
