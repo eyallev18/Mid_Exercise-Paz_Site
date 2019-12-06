@@ -273,7 +273,7 @@ footer > p:last-child > a {
 }
 .lang {
   bottom: 35px;
-  left:290px;
+  left:260px;
   
   
 }
@@ -288,5 +288,28 @@ footer > p:last-child > a {
 .lang > a {
   color:white;
   text-decoration: none;
+  letter-spacing: 0px;
+  font-size: 12px;
+  font-weight: bold;
+  
 
 }
+.field {
+  border-top-right-radius: 25%;
+}
+.lang > a:hover {
+  color:blue;
+  text-decoration: underline;
+}
+
+.read_more_blue {
+  position:relative; 
+  top: 50px;
+}
+.hide_blue {
+  display:inline;
+  top:100px;
+}
+ .main_pic > div > div > p > a:hover , .bottom_pic  > div > p > a:hover, .bottom_pic_in > div >ul > li > a:hover {
+   color: blue;
+ } 
