@@ -56,7 +56,7 @@ header {
   /*logo */
   .top_menu {
     position: relative;
-    top: 30px;
+    top: 35px;
     /*right: 10%; */
    
     max-width: auto;
@@ -174,6 +174,7 @@ footer, div.top_menu {
 footer > p > a ,footer > img ,div.top_menu >p > a ,div.top_menu > img ,div.top_menu >div > a  {
   color:white;
   text-decoration: none;
+ 
 }
 
 div.top_menu > p,div.top_menu > div {
@@ -196,16 +197,33 @@ footer > p:last-child > a {
   background-color: yellow;
   font-size: 12px;
   margin: 0px;
+  width:100%;
 }
 .rel {
   position: relative;
 }
 .dropdown-content {
- /* display: none; */
+  display: none; 
+  font-size: 12px;
+  font-weight:bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: absolute;
-  top: 100%;
-  right: 0%;
+  top: 160%;
+  right: -30%;
   background-color: yellow;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
   z-index: 7;
+}
+.dropdown-content > a:hover, .rel:hover > a  {
+ /* background-color: #555; */
+  color: white;
+  width:100%;
+  padding: 10px 20px 10px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px; 
+  margin:0px;
+
+}
+.rel:hover > .dropdown-content , .rel > .dropdown-content > a:hover  {
+  display: block;
 }
