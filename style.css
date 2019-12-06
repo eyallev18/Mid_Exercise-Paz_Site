@@ -57,7 +57,7 @@ header {
   .top_menu {
     position: relative;
     top: 35px;
-    /*right: 10%; */
+    right: 100px; 
    
     max-width: auto;
   }
@@ -191,19 +191,22 @@ footer > p:last-child > a {
 }
 .dropdown-content > a {
   display:block;
+  border-bottom: rgb(200,200,200) 1px solid;
   text-decoration: none;
-  padding: 10px 20px 10px 20px; 
-  color: blue;
-  background-color: yellow;
+  padding: 10px 15px 10px 15px; 
+  color: white;
+  background-color: rgb(144,144,144);
   font-size: 12px;
   margin: 0px;
   width:100%;
   letter-spacing: 0px;
+  
 }
 .rel {
   position: relative;
 }
 .dropdown-content {
+  
   display: none; 
   font-size: 11px;
   font-weight:bold;
@@ -211,31 +214,79 @@ footer > p:last-child > a {
   position: absolute;
   top: 150%;
   right: -30%;
-  background-color: yellow;
-  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
-  z-index: 7;
+  background-color: rgb(144,144,144);;
+  /*box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5); */
+  z-index: 3;
   letter-spacing: 0px;
-}
-
-.dropdown-content > a:hover  {
- /* background-color: #555; */
-  color: white;
-  width:100%;
-  padding: 10px 20px 10px 20px;
-  margin-top: 5px;
-  margin-bottom: 5px; 
-  margin:0px;
-  letter-spacing: 0px;
-
 }
 .rel:hover > a {
-  color: white;
+  color: blue;
+  text-decoration: underline;
   width:100%;
   padding: 10px 0px 10px 0px;
   margin-top: 5px;
   margin-bottom: 5px; 
   margin:0px;
 }
+.dropdown-content > a:hover  {
+ /* background-color: #555; */
+  color: blue;
+  width:100%;
+  padding: 10px 15px 10px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px; 
+  margin:0px;
+  letter-spacing: 0px;
+  background-color: rgb(188,188,188);
+  text-decoration: underline;
+
+
+}
+
+
+
+
 .rel:hover > .dropdown-content , .rel > .dropdown-content > a:hover  {
   display: block;
+}
+.rel:link > a {
+  color: white;
+  text-decoration: none ;
+}
+/*
+.top_menu  .search {
+  position:relative;
+  right:1100px;
+  bottom:30px;
+
+}
+*/
+.search ,.lang, .text1,.search_im, .search_ic{
+ 
+  position: relative;
+  
+}
+.text1 {
+  bottom: 80px;
+  left:110px;
+  border-top-right-radius: 5%;
+}
+.lang {
+  bottom: 35px;
+  left:290px;
+  
+  
+}
+.search_im {
+  bottom: 75px;
+  left:200px;
+}
+.search_ic {
+  top: 5px;
+  left:5px;
+}
+.lang > a {
+  color:white;
+  text-decoration: none;
+
 }
