@@ -198,23 +198,26 @@ footer > p:last-child > a {
   font-size: 12px;
   margin: 0px;
   width:100%;
+  letter-spacing: 0px;
 }
 .rel {
   position: relative;
 }
 .dropdown-content {
   display: none; 
-  font-size: 12px;
+  font-size: 11px;
   font-weight:bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: absolute;
-  top: 160%;
+  top: 150%;
   right: -30%;
   background-color: yellow;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
   z-index: 7;
+  letter-spacing: 0px;
 }
-.dropdown-content > a:hover, .rel:hover > a  {
+
+.dropdown-content > a:hover  {
  /* background-color: #555; */
   color: white;
   width:100%;
@@ -222,7 +225,16 @@ footer > p:last-child > a {
   margin-top: 5px;
   margin-bottom: 5px; 
   margin:0px;
+  letter-spacing: 0px;
 
+}
+.rel:hover > a {
+  color: white;
+  width:100%;
+  padding: 10px 0px 10px 0px;
+  margin-top: 5px;
+  margin-bottom: 5px; 
+  margin:0px;
 }
 .rel:hover > .dropdown-content , .rel > .dropdown-content > a:hover  {
   display: block;
