@@ -313,3 +313,7 @@ footer > p:last-child > a {
  .main_pic > div > div > p > a:hover , .bottom_pic  > div > p > a:hover, .bottom_pic_in > div >ul > li > a:hover {
    color: blue;
  } 
+ footer > p > a:hover {
+   color:blue;
+   text-decoration: underline;
+ }
