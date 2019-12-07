@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="style_con.css">
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -164,21 +165,26 @@
 
 
     </header>
+
+
     <div class="container">
+
 
         <div class="main_in_pic right_col">
 
-                <p class="top_gray">
-                        <a href="#" target="_blank">צור קשר
-                            <img alt="connect" src="..\images\connection.jpg">
-            
-                        </a>
-                    </p>
-            <!--<div class="top_gray">
+            <div class="top_gray">
+                <div class="env">
+                    <a href="#" target="_blank">צור קשר
+                        <!---- <img alt="connect" src="..\images\connection.jpg"> -->
+                    </a>
+
+                </div>
+            </div>
+            <!----      <div class="top_gray">
                 <a href="#" target="_blank">צור קשר
             
                     
-                <img alt="read_more" src="..\images\connection.jpg">
+                <img class="center" alt="read_more" src="..\images\connection.jpg">
             </a>
             </div> -->
         </div>
@@ -186,20 +192,64 @@
 
 
         <div class="main_in_pic middle_col">
-                <p>
-                        <a href="#" target="_blank">עמוד הבית
-            
-                        </a>
-                    </p>
-                    <p> צור קשר
-                    
-                    <hr>
-                </p>
-          <div class="top_gray">
-                <!---- <a class="read_more" href="#">קרא עוד</a> -->
-                <img alt="read_more" src="..\images\contact_form_bg.png">
+            <p>
+                <a href="#" target="_blank">עמוד הבית
 
-            </div>
+                </a>
+                >צור קשר
+            </p>
+            <p> צור קשר </p>
+
+
+
+
+
+            <!---- <a class="read_more" href="#">קרא עוד</a> 
+                <img alt="read_more" src="..\images\contact_form_bg.png"> -->
+
+
+            <form id="my-form">
+                <fieldset>
+                    <legend></legend>
+                    <p class="make_con">צור קשר</p>
+                    <p class="connect_mess">ליצירת קשר עם קשריי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם:
+                    </p>
+                    <p class="must_field">השדות המסומנים בכוכבית (*) הינם חובה</p>
+                    <div>
+                        <label for="fname"> *שם פרטי:</label>
+                        <input id="fname" name="fname" type="text" maxlength="20" required>
+                        <p class="must"> שדה חובה</p>
+                        <div class="error-message">חובה למלא שם פרטי</div>
+                    </div>
+                    <div>
+                        <label for="lname">*שם משפחה:</label>
+                        <input id="lname" name="lname" type="text" required>
+                        <p class="must"> שדה חובה</p>
+                        <div class="error-message">חובה למלא שם משפחה</div>
+                    </div>
+                    <div>
+                        <label for="age">*טלפון:</label>
+                        <input id="age" type="number" max="120" min="0" required>
+                        <p class="must"> שדה חובה</p>
+                    </div>
+                    <div>
+                        <label for="email">*E-mail:</label>
+                        <input id="email" type="email" required>
+                        <p class="must"> שדה חובה</p>
+                        <div class="error-message">Please enter a valid email address</div>
+                    </div>
+                    <div>
+                        <label for="commnet"></label>
+                        <textarea id="comment" placeholder="תוכן הפניה"></textarea>
+                    </div>
+                    <!--<input type="submit" value="Bla bla">      -->
+                    
+                    <button type="submit" onclick="submitForm()">שלח</button>
+                    
+
+                </fieldset>
+
+
         </div>
 
 
@@ -209,9 +259,9 @@
                 <img alt="read_more" src="..\images\small_cube_bg.png">
             </div>
             <div class="top_gray">
-                    <!----  <a class="read_more" href="#">קרא עוד </a> -->
-                    <img alt="read_more" src="..\images\small_cube_bg.png">
-                </div>
+                <!----  <a class="read_more" href="#">קרא עוד </a> -->
+                <img alt="read_more" src="..\images\small_cube_bg.png">
+            </div>
         </div>
 
     </div>

@@ -20,13 +20,15 @@ header {
     
   }
   .container {
-    width:900px;
-    margin: auto;
+    width:1200px;
+    margin-right:20%;
+
   }
   
   .container {
     display: flex;
     justify-content: center;
+    justify-items: center;
     margin-top:30px;
     
     
@@ -324,9 +326,10 @@ footer > p:last-child > a {
   
 
 }
-.field {
+/*.field {
   border-top-right-radius: 25%;
 }
+*/
 .lang > a:hover {
   color:blue;
   text-decoration: underline;
@@ -355,7 +358,96 @@ footer > p:last-child > a {
  .right_col, .middle_col, .left_col {
    display:flex;
    margin:10px;
+   width:100%;
+  /* justify-content: space-between;*/
  }
  .middle_col,.left_col {
    flex-direction: column;
  }
+ 
+ .right_col > div > div  {
+width:100%;text-align: center;
+ }
+ 
+ .env  {
+   height: 5%;
+  background-image: url('..\\images\\connection.jpg');
+  /* background-color: chartreuse; */
+ }
+ .center {
+   position:absolute;
+   bottom:10px;
+   
+ }.top_gray > div  {
+   display: inline-block;
+ }
+ .right_col {
+   justify-content: center;
+   align-content: center;
+   width:30%;
+   
+ }
+ .middle_col {
+  align-content: center;
+  /*box-sizing: border-box;*/
+  margin: 0px;
+ }
+ .left_col {
+  /*justify-items: center;*/
+  /*justify-content: center;*/
+  /*justify-content: space-between;*/
+  margin-right: 30px;
+  margin-top:100px;
+ /* margin-top:100px;*/
+ justify-content: space-around;
+ }
+ .was-validated input:invalid {
+  border-color:red;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.75em;
+  display: none;
+}
+
+.was-validated input:invalid + .error-message {
+  display: block;
+
+}
+.make_con {
+  color: rgb(4,146,211);
+  font-weight: bold;
+  
+}
+.must {
+  color:red;
+}
+form {
+ 
+  font-size: 14px;
+}
+.must_field {
+color: rgb(156,156,156);
+}
+fieldset > p,fieldset> div ,fieldset > div > p{
+  margin-top:4px;
+  margin-bottom: 4px;
+}
+fieldset > button {
+  background-color: rgb(4,146,211);
+ /* border-top-right-radius: 20%; */
+  direction: ltr;
+  cursor: pointer;
+  
+}
+fieldset {
+  border-style:1px ridge gray;
+  background-color: rgb(254,254,254);
+  border-top-right-radius: 5%;
+  
+
+}
+fieldset > button {
+  text-align: center;
+}
