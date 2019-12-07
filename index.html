@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -186,7 +187,7 @@
                         <a class="read_more" href="#">קרא עוד
                             <img alt="read_more" src="..\images\read_more_white.png">
 
-                           <!---- <img alt="read_more_blue" src="..\images\read_more_blue.jpg"> -->
+                            <!---- <img alt="read_more_blue" src="..\images\read_more_blue.jpg"> -->
 
 
 
@@ -217,15 +218,20 @@
 
 
                     </p>
-                    <p class="p_read_more">
-                        <a class="read_more" href="#">קרא עוד
-                            <img alt="read_more" src="..\images\read_more_white.png">
-                            <!-- <a class="read_more_blue" href="#">קרא עוד
-                                        <img alt="read_more" src="..\images\read_more_blue.jpg">
-                               -->
 
+                    <p  class="p_read_more" >
+                        <a id="non_hover_read_m1" class="read_more non_hover_read_m1" onmouseover="mouseOver_read_m1()"href="#">קרא עוד
+                            <img alt="read_more" src="..\images\read_more_white.png">
                         </a>
+
+                        <a id="hover_read_m1" class="read_more hover_read_m1" onmouseout="mouseOut_read_m1()" href="#">קרא עוד
+                                <img alt="read_more" src="..\images\read_more_blue.jpg">
+                            </a>
                     </p>
+                   <!---- <p id="non_hover_read_m1" class="p_read_more non_hover_read_m1" onmouseout="mouseOut_read_m1()">
+                        
+                    </p> -->
+
                 </div>
             </div>
             <div class="main_in_pic">
@@ -282,7 +288,10 @@
                     yellow click and pick;
                 </p>
                 <div>
-                    <img class="pic_bot_on" src="..\images\Oz_pic.JPG" alt="" width="80%">
+                    <img id="first_swap_pic" class="pic_bot_on swap_pic_dp" src="Oz_pic.JPG" alt="" width="80%">
+                    <img id="second_swap_pic" class="pic_bot_on swap_pic_ndp" src="250X110668568400.jpg" alt="" width="80%">
+                    <img id="third_swap_pic" class="pic_bot_on swap_pic_ndp" src="banner_atar.jpg" alt="" width="80%">
+                    
                 </div>
                 <p class="p_details">
                     <a class="bottom_link" href="#" target="_blank">לפרטים נוספים

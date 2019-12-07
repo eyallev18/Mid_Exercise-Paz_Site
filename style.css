@@ -317,3 +317,15 @@ footer > p:last-child > a {
    color:blue;
    text-decoration: underline;
  }
+ .hover_read_m1 {
+   display:none;
+ }
+ .non_hover_read_m1 {
+  display:block;
+}
+.swap_pic_dp {
+  display: initial;
+}
+.swap_pic_ndp {
+  display:none;
+}
