@@ -21,6 +21,14 @@ function submitForm() {
       
     }, 1000);
   }
+  function mouseOver() {
+    document.getElementById("non_hover").className = "hover";
+    document.getElementById("hover").className = "non_hover";
+  }
+  function mouseOut() {
+    document.getElementById("non_hover").className = "non_hover";
+    document.getElementById("hover").className = "hover";
+  }
   
   
   

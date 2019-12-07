@@ -493,3 +493,9 @@ fieldset > button:hover {
 hr {
   color:black;
 }
+.hover {
+  display:none;
+}
+.non_hover {
+  display:block;
+}
