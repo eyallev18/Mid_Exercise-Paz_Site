@@ -53,6 +53,13 @@ header {
     
    
   }
+  .connect_mess1 {
+    color: gray
+  }
+  .connect_mess {
+    color: rgb(144,144,144);
+  }
+
   
 
   /*
@@ -366,7 +373,8 @@ footer > p:last-child > a {
  }
  
  .right_col > div > div  {
-width:100%;text-align: center;
+width:100%;
+text-align: center;
  }
  
  .env  {
@@ -384,7 +392,7 @@ width:100%;text-align: center;
  .right_col {
    justify-content: center;
    align-content: center;
-   width:30%;
+   width:35%;
    
  }
  .middle_col {
@@ -396,8 +404,8 @@ width:100%;text-align: center;
   /*justify-items: center;*/
   /*justify-content: center;*/
   /*justify-content: space-between;*/
-  margin-right: 30px;
-  margin-top:100px;
+  margin-right: 100px;
+  margin-top:40px;
  /* margin-top:100px;*/
  justify-content: space-around;
  }
@@ -439,6 +447,7 @@ fieldset > button {
  /* border-top-right-radius: 20%; */
   direction: ltr;
   cursor: pointer;
+  text-align: center;
   
 }
 fieldset {
@@ -448,6 +457,39 @@ fieldset {
   
 
 }
-fieldset > button {
-  text-align: center;
+fieldset > button:hover {
+  background: orangered;
+  color:black;
+ 
+}
+.left_col > div > p ,.left_col > div > a {
+  margin-top:2px;
+  margin-bottom: 2px;
+  padding-right: 10px;
+  font-size: 12px;
+}
+.left_col > div > p:first-child {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.left_col > div {
+  height:100%;
+  margin-top:30px;
+  width:292px;
+  background-image: url("..\\images\\small_cube_bg.png");
+}
+.left_col > div > a:hover {
+  color:cyan;
+}
+.right_col > div > div > a, .ch_cl > a , .middle_col > p:first-child {
+  color:gray;
+  text-decoration: none;
+  font-size: 12px;
+}
+.right_col > div > div > a:hover , .ch_cl > a:hover {
+  color:lightskyblue;
+  text-decoration: underline;
+}
+hr {
+  color:black;
 }
