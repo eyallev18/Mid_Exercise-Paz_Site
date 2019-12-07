@@ -352,3 +352,10 @@ footer > p:last-child > a {
    color:blue;
    text-decoration: underline;
  }
+ .right_col, .middle_col, .left_col {
+   display:flex;
+   margin:10px;
+ }
+ .middle_col,.left_col {
+   flex-direction: column;
+ }
