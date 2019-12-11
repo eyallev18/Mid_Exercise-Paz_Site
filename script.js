@@ -17,6 +17,7 @@ function submitForm() {
     
   }
   function mouseOver() {
+    var image = document.getElementById('first_swap_pic');
     document.getElementById("non_hover").className = "hover";
     document.getElementById("hover").className = "non_hover";
   }
@@ -25,12 +26,39 @@ function submitForm() {
     document.getElementById("hover").className = "hover";
   }
   function mouseOver_read_m1() {
-    document.getElementById("non_hover_read_m1").className = "read_more hover_read_m1";
-    document.getElementById("hover_read_m1").className = "read_more non_hover_read_m1";
+    document.getElementById('swap_pic_read_m1').src="read_more_blue.jpg";
+   
   }
   function mouseOut_read_m1() {
-    document.getElementById("non_hover_read_m1").className = "read_more non_hover_read_m1";
-    document.getElementById("hover_read_m1").className = "read_more hover_read_m1";
+    document.getElementById('swap_pic_read_m1').src="read_more_white.png";
+  }
+  function mouseOver_read_m2() {
+    document.getElementById('swap_pic_read_m2').src="read_more_blue.jpg";
+   
+  }
+  function mouseOut_read_m2() {
+    document.getElementById('swap_pic_read_m2').src="read_more_white.png";
+  }
+  function mouseOver_read_m3() {
+    document.getElementById('swap_pic_read_m3').src="read_more_blue.jpg";
+   
+  }
+  function mouseOut_read_m3() {
+    document.getElementById('swap_pic_read_m3').src="read_more_white.png";
+  }
+  function mouseOver_read_de1() {
+    document.getElementById('swap_pic_read_de1').src="read_more_blue_white.jpg";
+   
+  }
+  function mouseOut_read_de1() {
+    document.getElementById('swap_pic_read_de1').src="read_more_yellow.png";
+  }
+  function mouseOver_read_de2() {
+    document.getElementById('swap_pic_read_de2').src="read_more_blue_white.jpg";
+   
+  }
+  function mouseOut_read_de2() {
+    document.getElementById('swap_pic_read_de2').src="read_more_yellow.png";
   }
 
   var image=document.getElementById("first_swap_pic");
