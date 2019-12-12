@@ -388,22 +388,24 @@ footer > p:last-child > a {
 width:100%;
 text-align: center;
  }
- .env image {
+
+ .top_gray  image {
+ 
    width:100%;
-   height: auto;
+   /*cursor: pointer;*/
  }
  
- .env  {
-  position: relative;
- } 
- .env a {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  text-align: center;
-  cursor: pointer;
+ 
+ .top_gray a {
+  padding-right:30px;
+  background: url(connection.jpg) 70px;
+  
+   
+  /*left: 50%; */
+  
+  
  }
- }
+ 
  .center {
    position:absolute;
    bottom:10px;
