@@ -182,9 +182,8 @@
 
             <div class="top_gray">
                 <div class="env">
-                    <a href="#" target="_blank">צור קשר
-                        <!---- <img alt="connect" src="..\images\connection.jpg"> -->
-                    </a>
+                        <img  alt="connect" src="connection.jpg"> 
+                    <a  class="bg" href="#" target="_blank">צור קשר</a>
 
                 </div>
             </div>
@@ -215,7 +214,7 @@
             <!---- <a class="read_more" href="#">קרא עוד</a> 
                 <img alt="read_more" src="..\images\contact_form_bg.png"> -->
 
-
+            <div class="contain_fi">
             <form id="my-form">
                 <fieldset>
                     <legend></legend>
@@ -223,31 +222,31 @@
                     <p class="connect_mess">ליצירת קשר עם קשריי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם:
                     </p>
                     <p class="must_field">השדות המסומנים בכוכבית (*) הינם חובה</p>
-                    <div>
+                    <div class="row">
                         <label for="fname"> *שם פרטי:</label>
                         <input id="fname" name="fname" type="text" maxlength="20" required>
                        
                         <div class="error-message">שדה חובה</div>
                     </div>
-                    <div>
+                    <div class="row">
                         <label for="lname">*שם משפחה:</label>
                         <input id="lname" name="lname" type="text" required>
                         
                         <div class="error-message">שדה חובה</div>
                     </div>
-                    <div>
+                    <div class="row">
                         <label for="age">*טלפון:</label>
-                        <input id="age" type="number" max="120" min="0" required>
+                        <input id="age" type="number"  required>
                         <div class="error-message">שדה חובה</div>
                         
                     </div>
-                    <div>
+                    <div class="row">
                         <label for="email">*E-mail:</label>
                         <input id="email" type="email" required>
                         
                         <div class="error-message">שדה חובה</div>
                     </div>
-                    <div>
+                    <div class="row">
                         <label for="commnet"></label>
                         <textarea id="comment" placeholder="תוכן הפניה"></textarea>
                     </div>
@@ -258,7 +257,8 @@
 
                 </fieldset>
 
-
+            </form>
+            </div>
         </div>
 
 

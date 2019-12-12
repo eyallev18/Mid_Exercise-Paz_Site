@@ -230,9 +230,10 @@ footer > p:last-child > a {
 } */
 .dropdown-content > a {
   display:block;
+  white-space: nowrap;
   border-bottom: rgb(200,200,200) 1px solid;
   text-decoration: none;
-  padding: 10px 15px 10px 15px; 
+  padding: 10px 3px 10px 1px; 
   color: white;
   background-color: rgb(144,144,144);
   font-size: 12px;
@@ -258,8 +259,19 @@ footer > p:last-child > a {
   z-index: 3;
   letter-spacing: 0px;
 }
-.rel:hover > a {
+.dropdown-content > a:first-child {
+  background: linear-gradient(to top , rgb(145,145,145) 40%, rgb(190,190,190));
+  
+}
+.dropdown-content > a:first-child:hover {
+ background: linear-gradient(to top , rgb(188,188,188)40% , rgb(188,188,188));
+  
+  
+}
+.rel > a:hover{
   color: blue;
+  font-weight:bold;
+  white-space: nowrap;
   text-decoration: underline;
   width:100%;
   padding: 10px 0px 10px 0px;
@@ -271,7 +283,7 @@ footer > p:last-child > a {
  /* background-color: #555; */
   color: blue;
   width:100%;
-  padding: 10px 15px 10px 15px;
+  padding: 10px 3px 10px 1px;
   margin-top: 5px;
   margin-bottom: 5px; 
   margin:0px;
@@ -333,10 +345,10 @@ footer > p:last-child > a {
   
 
 }
-/*.field {
-  border-top-right-radius: 25%;
+.field {
+  border-top-right-radius: 10px;
 }
-*/
+
 .lang > a:hover {
   color:blue;
   text-decoration: underline;
@@ -376,11 +388,21 @@ footer > p:last-child > a {
 width:100%;
 text-align: center;
  }
+ .env image {
+   width:100%;
+   height: auto;
+ }
  
  .env  {
-   height: 5%;
-  background-image: url('..\\images\\connection.jpg');
-  /* background-color: chartreuse; */
+  position: relative;
+ } 
+ .env a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  cursor: pointer;
+ }
  }
  .center {
    position:absolute;
@@ -443,20 +465,54 @@ fieldset > p,fieldset> div ,fieldset > div > p{
   margin-bottom: 4px;
 }
 fieldset > button {
+  color: white;
   background-color: rgb(4,146,211);
+  border-top-right-radius: 7px;
  /* border-top-right-radius: 20%; */
   direction: ltr;
   cursor: pointer;
   text-align: center;
+  /*position: relative;
+  right:350px; */
+  float:left;
   
 }
 fieldset {
   border-style:1px ridge gray;
-  background-color: rgb(254,254,254);
+  background-color:  #f2f2f2;
   border-top-right-radius: 5%;
-  
-
+  margin: auto;
+   
 }
+label {
+  padding: 12px 12px 12px 0;
+ 
+}
+
+input[type=text],input[type=number],input[type=email] select, textarea {
+ 
+  padding: px;
+  border: 1px solid #ccc;
+  resize: vertical;
+ /* float:left; */
+}
+textarea {
+  height:100px;
+  width: 75%;
+}
+.row > input, .row > textarea {
+  float: left;
+}
+.row {
+  margin-right: 75px;
+  margin-left: 75px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 fieldset > button:hover {
   background: orangered;
   color:black;
@@ -498,5 +554,8 @@ hr {
 }
 .non_hover {
   display:block;
+}
+.middle_col > form {
+  height: 250px;
 }
 
