@@ -389,21 +389,24 @@ width:100%;
 text-align: center;
  }
 
- .top_gray  image {
- 
-   width:100%;
-   /*cursor: pointer;*/
+ .connect_mess1 {
+   color: rgb(109,109,109);
  }
  
  
- .top_gray a {
-  padding-right:30px;
-  background: url(connection.jpg) 70px;
-  
+ #bg_field {
+  padding:60px 15px 60px 65px;
+  background: url(connection.jpg) 1px no-repeat;
+
+  text-decoration: none;
    
   /*left: 50%; */
   
   
+ }
+ #bg_field:hover {
+   text-decoration: underline;
+   color: blue;
  }
  
  .center {
