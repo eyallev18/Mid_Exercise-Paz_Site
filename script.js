@@ -60,7 +60,27 @@ function submitForm() {
   function mouseOut_read_de2() {
     document.getElementById('swap_pic_read_de2').src="read_more_yellow.png";
   }
-
+  function mouseOver_read_nor() {
+    document.getElementById('swap_pic_read_nor').src="read_more_blue_white.jpg";
+   
+  }
+  function mouseOut_read_nor() {
+    document.getElementById('swap_pic_read_nor').src="read_more_yellow.png";
+  }
+  function mouseOver_read_cen() {
+    document.getElementById('swap_pic_read_cen').src="read_more_blue_white.jpg";
+   
+  }
+  function mouseOut_read_cen() {
+    document.getElementById('swap_pic_read_cen').src="read_more_yellow.png";
+  }
+  function mouseOver_read_sou() {
+    document.getElementById('swap_pic_read_sou').src="read_more_blue_white.jpg";
+   
+  }
+  function mouseOut_read_sou() {
+    document.getElementById('swap_pic_read_sou').src="read_more_yellow.png";
+  }
   var image=document.getElementById("first_swap_pic");
   
   var image_tracker = 'Oz_pic';
